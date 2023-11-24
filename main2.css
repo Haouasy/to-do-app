@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    color: white;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(47, 47, 47);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    border: none;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    border-radius: 10px;
+    color: black;
+}
+.btn{
+    background-color: rgb(60, 110, 164);
+    border-radius: 10px;
+    padding: 10px;
+    width: 60px;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.delete__btn{
+    background-image: url("542724-removebg-preview\ \(1\).png");
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+}
+.task__whole {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .task__text {
+    margin-right: auto; /* Push the button to the end */
+  }
+  .tasks__container{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 252, 252);
+    width:500px;
+    margin: 0 auto;
+  }
+  .task{
+    padding: 10px;
+  }
+  .check__btn{
+    background-image: url("check.png");
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+  }
+  .checked{
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
